@@ -374,9 +374,11 @@ textarea:focus {
   margin-bottom: 0.3em;
 }
 
-.popup__pictures li {
-  display: inline-block;
-  vertical-align: middle;
+.popup__photos {
+  display: flex;
+}
+.popup__photos img{
+  max-width: 100%;
 }
 
 .popup__avatar {
